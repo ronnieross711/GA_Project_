@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+	padding: 0%;
+	margin: 0%;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+    
+    
+}
+.intro {
+	background-color: blue;
+	color:ghostwhite;
+	display: flex;
+}
+.container {
+	background-color: rgba(186, 186, 214, .7);
+	border-radius: 5px;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+	display: grid;
+	grid-template-columns:100px 100px;
+	gap: 5px;
+	margin: 20px 0;
+	justify-content: center;
+}
+
+.firstButton {
+	background-color: crimson;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 10px 20px;
+	
+}
+.current {
+    display: block;
+}
+
+h1{
+    color:floralwhite;
+}
+.hide {
+	display: none;
+}
+
+.next {
+	background-color: rgb(30, 119, 244);
+	text-align: right;
+	justify-content: right;
+}
+.back {
+	background-color: rgb(30, 119, 244);
+}
+
+.introduction {
+	display: ;
+}
+.answerButton {
+	display: block;
+}
+#scoreBoard {
+	background-color: rgb(36, 10, 234);
+	color: black;
+	width: 100px;
+	height: 100px;
+	text-align: right;
+	justify-content: right
+}
